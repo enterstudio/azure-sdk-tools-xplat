@@ -1,0 +1,121 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - azure > azure-mgmt-scheduler > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure-mgmt-authorization > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-authorization > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-gallery > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-resource > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-sb > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-sql > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-website > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-rm-website > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-compute > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-monitoring > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-vnet > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-scheduler > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure-mgmt-resource > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-sb > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-hdinsight > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-subscription > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure-gallery > azure-common > request > hawk:
+        patched: '2018-06-07T21:08:10.589Z'
+  'npm:moment:20160126':
+    - azure > azure-rm-website > moment:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-scheduler > moment:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-website > moment:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-monitoring > moment:
+        patched: '2018-06-07T21:08:10.589Z'
+  'npm:qs:20140806-1':
+    - azure-mgmt-authorization > azure-common > request > qs:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure-gallery > azure-common > request > qs:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-scheduler > azure-common > request > qs:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-authorization > azure-common > request > qs:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-gallery > azure-common > request > qs:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-resource > azure-common > request > qs:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-rm-website > azure-common > request > qs:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure-mgmt-resource > azure-common > request > qs:
+        patched: '2018-06-07T21:08:10.589Z'
+  'npm:request:20160119':
+    - azure > azure-mgmt-sql > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure-mgmt-authorization > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure-mgmt-resource > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-authorization > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-gallery > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-resource > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-storage > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-sb > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure-gallery > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-website > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-rm-website > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-compute > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-monitoring > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-vnet > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-scheduler > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-scheduler > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-sb > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-hdinsight > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
+    - azure > azure-mgmt-subscription > azure-common > request:
+        patched: '2018-06-07T21:08:10.589Z'
