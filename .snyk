@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:http-signature:20150122':
+    - azure > azure-mgmt-sql > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure-gallery > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure-mgmt-resource > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-gallery > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-authorization > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-resource > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-sb > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-vnet > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure-mgmt-authorization > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-compute > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-storage > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-monitoring > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-rm-website > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-subscription > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-website > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-scheduler > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-scheduler > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-mgmt-hdinsight > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
+    - azure > azure-sb > azure-common > request > http-signature:
+        patched: '2018-07-02T21:08:08.983Z'
