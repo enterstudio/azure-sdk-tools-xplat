@@ -1,0 +1,267 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - azure > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-resource > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-gallery > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-subscription > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-resource > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sb > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-scheduler > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-gallery > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-authorization > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-vnet > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-website > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-monitoring > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-rm-website > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-sb > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-scheduler > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-compute > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-hdinsight > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sql > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-authorization > azure-common > request > hawk:
+        patched: '2019-04-05T08:48:17.830Z'
+  'npm:http-signature:20150122':
+    - azure > azure-mgmt-authorization > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-gallery > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-subscription > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-resource > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sb > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-scheduler > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-gallery > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-storage > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-authorization > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-vnet > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-website > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-monitoring > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-rm-website > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-sb > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-scheduler > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-compute > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-hdinsight > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sql > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-resource > azure-common > request > http-signature:
+        patched: '2019-04-05T08:48:17.830Z'
+  'npm:mime:20170907':
+    - azure > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-storage > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-gallery > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-authorization > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-resource > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-rm-website > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-monitoring > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-website > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-vnet > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-subscription > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-storage > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sql > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-scheduler > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sb > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-gallery > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-resource > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-authorization > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-storage-legacy > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-gallery > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-resource > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-scheduler > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-authorization > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-compute > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-hdinsight > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-sb > azure-common > request > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-storage > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-compute > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-scheduler > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-sb > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-rm-website > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-monitoring > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-website > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-vnet > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-subscription > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-storage-legacy > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sql > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-scheduler > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sb > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-resource > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-gallery > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-hdinsight > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-authorization > azure-common > request > form-data > mime:
+        patched: '2019-04-05T08:48:17.830Z'
+  'npm:moment:20160126':
+    - azure > azure-mgmt-website > moment:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-monitoring > moment:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-scheduler > moment:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-rm-website > moment:
+        patched: '2019-04-05T08:48:17.830Z'
+  'npm:qs:20140806-1':
+    - azure-mgmt-authorization > azure-common > request > qs:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-resource > azure-common > request > qs:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-gallery > azure-common > request > qs:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-resource > azure-common > request > qs:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-scheduler > azure-common > request > qs:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-gallery > azure-common > request > qs:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-authorization > azure-common > request > qs:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-rm-website > azure-common > request > qs:
+        patched: '2019-04-05T08:48:17.830Z'
+  'npm:request:20160119':
+    - azure > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sql > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-authorization > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-gallery > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-subscription > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-resource > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-sb > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-scheduler > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-gallery > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-storage > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-authorization > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-vnet > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-website > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-monitoring > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-rm-website > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-sb > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-scheduler > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-compute > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure > azure-mgmt-hdinsight > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
+    - azure-mgmt-resource > azure-common > request:
+        patched: '2019-04-05T08:48:17.830Z'
