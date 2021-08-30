@@ -42,7 +42,7 @@
     "azure-gallery": "2.0.0-pre.10",
     "azure-mgmt-authorization": "0.9.0-pre.1",
     "azure-mgmt-resource": "2.0.0-pre.11",
-    "azure-storage": "0.3.3",
+    "azure-storage": "2.8.1",
     "colors": "0.x.x",
     "commander": "1.0.4",
     "easy-table": "0.0.1",
@@ -66,7 +66,8 @@
     "readable-stream": "~1.0.0",
     "openssl-wrapper": "0.2.1",
     "caller-id": "0.1.x",
-    "azure-extra": "~0.1.0"
+    "azure-extra": "~0.1.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "mocha": "1.16.0",
@@ -96,9 +97,12 @@
     "preacceptance": "node scripts/cuke-environment.js setup",
     "acceptance": "node node_modules/cucumber/bin/cucumber.js",
     "postacceptance": "node scripts/cuke-environment.js teardown",
-    "extract-labels": "node scripts/extract-labels"
+    "extract-labels": "node scripts/extract-labels",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "bin": {
     "azure": "./bin/azure"
-  }
+  },
+  "snyk": true
 }
